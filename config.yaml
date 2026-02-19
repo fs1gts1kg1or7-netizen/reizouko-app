@@ -1,0 +1,11 @@
+cookie:
+  expiry_days: 30
+  key: random_signature_key # 🚨 この値をランダムな文字列（例: 'abcxyz123'）に変更してください
+  name: streamlit_app_cookie
+credentials:
+  usernames:
+    admin:
+      email: admin@example.com
+      name: Administrator
+      # 🚨 "pass" をハッシュ化した値
+      password: $2b$12$0ni522VVz9OMuAfXpP5b..OAtBecoGtlecWQRpB7dzByrRoN.OpmG

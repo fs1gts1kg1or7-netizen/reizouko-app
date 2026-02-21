@@ -1,10 +1,14 @@
-# 冷蔵庫管理アプリ
+# 献立提案アプリ
 
-ポートフォリオとして制作した冷蔵庫管理アプリです。
+ポートフォリオとして制作した献立提案アプリです。
+
+## デモ動画 
+約6分の動画です。
+https://youtu.be/Ey6x3xG0eVo?si=uw24lrmeOTfG6ZGT
 
 ## アプリの概要
 
-冷蔵庫の中にある食材を登録・一覧表示・削除できるアプリです。
+冷蔵庫の中にある食材を登録・一覧表示・削除、献立提案できるアプリです。
 家族が毎日献立を考えるのが大変という問題を解決したいと思い制作しました。
 
 ## 制作の目的
@@ -14,12 +18,11 @@
 ・Git / GitHubの使い方に慣れるため  
 
 ## 使用技術
-- **Frontend**: [Streamlit]
-- **Backend**: [Python 3.x]
-- **Database**: [SQLite] / [SQLAlchemy] (ORM)
-- **AI**: [OpenAI API (GPT-4o)]
-- **Authentication**: [Streamlit-Authenticator]
-
+- Python  
+- Streamlit  
+- SQLite  
+- SQLAlchemy  
+- OpenAI API  
 
 ## 実装した機能
 

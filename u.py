@@ -194,6 +194,8 @@ def suggest_menu(ingredients_list, allergy_list, time_constraint = ""):
     あなたは優秀な料理専門家であり、レシピ提案AIです。簡潔で実用的なレシピ提案を作成してください。
     
     {allergy_instruction}
+    
+    {time_constraint}
 
     ################################################################
     ## 🚨 最重要指令：制約の厳守 🚨
@@ -336,8 +338,8 @@ if authentication_status:
                         st.markdown("献立提案のための食材を登録してください。")
 
                         with st.form(key=st.session_state['registration_key']):
-                            new_name = st.text_input("食材名", placeholder="例: 鶏むね肉, 玉ねぎ")
-                            new_quantity = st.text_input("数量・単位", placeholder="例: 200g, 1個")
+                            new_name = st.text_input("食材名", placeholder="例: 鶏むね肉, 玉ねぎ, 牛乳")
+                            new_quantity = st.text_input("数量・単位", placeholder="例: 200g, 1個, 500ml")
                             
                             # 期限の初期値を今日に設定
                             new_use_by_date = st.date_input("賞味期限/消費期限", value=datetime.date.today())

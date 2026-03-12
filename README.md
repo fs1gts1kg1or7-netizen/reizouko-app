@@ -37,20 +37,20 @@ https://youtu.be/Ey6x3xG0eVo?si=uw24lrmeOTfG6ZGT
 ・Git / GitHubの使い方に慣れるため  
 
 ## 使用技術
-フロントエンド  
-Streamlit
+**フロントエンド**
+- Streamlit
 
-バックエンド  
-Python
+**バックエンド**
+- Python
 
-データベース  
-SQLite
+**データベース**
+- SQLite
 
-ORM  
-SQLAlchemy
+**ORM**
+- SQLAlchemy
 
-AI  
-OpenAI API
+**AI**
+- OpenAI API
 
 
 ## 主な機能
